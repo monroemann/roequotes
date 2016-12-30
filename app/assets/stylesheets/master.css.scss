@@ -1,5 +1,10 @@
+/* PLUGINS */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px|Tangerine');
+
 
 .clear {
   clear:both;
@@ -45,4 +50,17 @@
 /* HORIZONTAL RULE */
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: 'Slabo 27px', serif;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: -1.5px;
+}
+
+h2 {
+  font-family: 'Tangerine', cursive;
+  font-weight: 300;
+  letter-spacing: -1.5px;
 }
