@@ -60,10 +60,12 @@ hr {
 h1 {
   font-family: 'Slabo 27px', serif;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 40px;
   letter-spacing: -1.5px;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 100px;
+  max-width: 500px;
 }
 
 h2 {
