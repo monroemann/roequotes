@@ -11,20 +11,23 @@ body {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
+  height: 80px;
   background-color: #f84342;
 }
 
 .next-quote {
   color: black;
-  font-size: 30px;
-  font-family: 'Tangerine', cursive;
-  font-weight: 600;
+  font-size: 25px;
+  font-family: serif;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .info-section {
   color: black;
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua",Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-size: 12px
   
 }
 
