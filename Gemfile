@@ -47,3 +47,6 @@ gem 'sprockets','2.11.0'
 
 # Use SCSS for stylesheets
 gem 'sass-rails'
+
+# Simple Form gem
+gem 'simple_form'
