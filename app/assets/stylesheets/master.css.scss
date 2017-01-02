@@ -48,7 +48,7 @@
 
 }
 
-/*LINKS SHAPE & DESIGN */
+/*LINK SHAPE & DESIGN */
 .links a {
    color:black;
    font-size: 20px;
@@ -57,6 +57,10 @@
 
 .links {
   padding-top: 26px;
+}
+
+a:link {
+  color: green;
 }
 
 /* HORIZONTAL RULE */
@@ -80,10 +84,6 @@ h2 {
   font-weight: 300;
   letter-spacing: -1.5px;
   text-align: center;
-}
-
-a:link {
-  color: red;
 }
 
 .about {
