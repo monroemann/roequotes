@@ -93,3 +93,32 @@ h2 {
   font-style: italic;
   padding-top: 26px;
 }
+
+/*The "Next Quote" Button*/
+.next-quote {
+  color: white;
+  font-size: 25px;
+  font-family: serif;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.button-padding {
+  padding-top: 50px;
+}
+
+.modal {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+h2 span {
+  color: #dddddd;
+  font-weight:bold;
+  font-size:48px;
+}
+
+::selection {
+  background-color: #f84342;
+}

@@ -6,6 +6,7 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -15,20 +16,17 @@ body {
   background-color: #f84342;
 }
 
-.next-quote {
-  color: black;
-  font-size: 25px;
-  font-family: serif;
-  font-weight: bold;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .info-section {
   color: black;
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua",Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
-  font-size: 12px
-  
+  font-size: 15px;
+}
+
+@media (min-width: 750px) {
+  .info-section2 {
+    text-align: right;
+    }
 }
 
 a:link {

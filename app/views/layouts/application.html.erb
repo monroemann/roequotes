@@ -34,6 +34,7 @@ Proudly sharing Monroe Mann inspiration, musings, and quotations since 2016.  A)
 <div class="col-xs-12 col-md-4 text-center links">
   <!-- Button trigger modal -->
    <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
+   &nbsp;&nbsp;
   <%= link_to 'About', about_path %>
 </div>
 
@@ -50,8 +51,9 @@ Proudly sharing Monroe Mann inspiration, musings, and quotations since 2016.  A)
         </div>
         <%= simple_form_for Quote.new do |f| %>
           <div class="modal-body">
-            <%= f.input :saying %>
-            <%= f.input :author %>
+            <%= f.input :saying, label: "Quotation", placeholder: "What is the quotation?  Limit is BLANK words." %>
+            <br />
+            <%= f.input :author, label: "Attribution", placeholder: "Example: Monroe Mann in his book Time Zen" %>
         </div>
         
         <div class="modal-footer">
@@ -76,19 +78,22 @@ Proudly sharing Monroe Mann inspiration, musings, and quotations since 2016.  A)
     </div>
   <% end %>    
 <%= yield %>
+
+</div>
+<div class="col-xs-12 text-center button-padding">
+    <button type="button" class="btn btn-primary btn-xs"><%= link_to "ANOTHER QUOTE PLEASE!", root_path, class: "next-quote" %></button>
 </div>
 
 <br class="clear" />
 <div class="footer">
   <div class="container">
     
-    <div class="col-xs-12 col-md-6 text-center">
-        <%= link_to "ANOTHER QUOTE!", root_path, class: "next-quote" %>
+
+  
+    <div class="col-xs-12 info-section info-section2">
+       Proudly built by <a href="http://monroemann.getforge.io" style="color:white">Monroe Mann</a> using Ruby, Rails, HTML, CSS, Bootstrap, Github, &amp; Heroku.  Want your own quote machine, or something else?  <a href="mailto:roe@monroemann.com">Get in touch!</a> &copy;2016 by Monroe Mann. Esq.
     </div>
     
-    <div class="col-xs-12 col-md-6 text-center info-section">
-       Proudly built by <a href="http://monroemann.getforge.io" style="color:white">Monroe Mann</a> using Ruby, Rails, HTML, CSS, + Bootstrap.  Want your own quote machine, or something else?  <a href="mailto:roe@monroemann.com">Get in touch!</a> &copy;2016 by Monroe Mann. Esq.
-    </div>
 
 </div>
 </body>
