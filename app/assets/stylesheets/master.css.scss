@@ -18,13 +18,14 @@
     border-radius: 100%;
     background: #f84342;
     border: 1px solid #F7F7F7;
-    width: 90px;
-    height: 90px;
-    margin: 10px 10px;
+    width: 150px;
+    height: 150px;
+    margin: 12px 10px;
+    padding-top: 24px;
     text-align: center;
     color: #FFF;
-    font-size: 10px;
-    line-height: 16px;
+    font-size: 17px;
+    line-height: 20px;
     cursor: pointer;
     transform:rotate(11deg);
     -ms-transform:rotate(11deg); /* IE 9 */
@@ -44,6 +45,7 @@
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua",Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-style: italic;
   padding-top: 26px;
+  font-size: 18px;
 
 
 }
@@ -51,8 +53,8 @@
 /*LINK SHAPE & DESIGN */
 .links a {
    color:black;
-   font-size: 20px;
-   border-bottom: 1px solid red;
+   font-size: 25px;
+   border-bottom: 2px solid red;
 }
 
 .links {

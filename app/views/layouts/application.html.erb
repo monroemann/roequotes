@@ -13,7 +13,7 @@
 
 
 <!--LOGO-->
-<div class="col-xs-3">
+<div class="col-xs-4 col-md-3 text-center">
   <%= link_to root_path, class: "logo" do %>
     <div class="circle">
       <br />
@@ -27,11 +27,11 @@
 </div>
 
 <!--SLOGAN-->
-<div class="col-xs-5 slogan">
-Proudly sharing Monroe Mann inspiration, musings, and quotations since 2016.  Instructions: A) Click the bottom left link for new random quotations.  B) Keep clicking the link until inspired to your anticipated level of satisfaction.  C) Go out there and kick it!
+<div class="col-xs-8 col-md-5 text-justified slogan">
+Proudly sharing Monroe Mann inspiration, musings, and quotations since 2016.  A) Click the bottom link until inspired to your level of satisfaction.  B) Go out there and kick it!
 </div>
 
-<div class="col-xs-4 links">
+<div class="col-xs-12 col-md-4 text-center links">
   <!-- Button trigger modal -->
    <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
   <%= link_to 'About', about_path %>
@@ -46,7 +46,7 @@ Proudly sharing Monroe Mann inspiration, musings, and quotations since 2016.  In
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <h4 class="modal-title" id="myModalLabel">Contribute your quote.</h4>
+          <h4 class="modal-title" id="myModalLabel">Contribute your favorite quote from Monroe Mann or one of his books.  Spam posts will be tracked by IP address.</h4>
         </div>
         <%= simple_form_for Quote.new do |f| %>
           <div class="modal-body">
